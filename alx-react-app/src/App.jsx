@@ -6,6 +6,7 @@ import viteLogo from '/vite.svg';
 import Header from './Header';
 import MainContent from './MainContent';
 import Footer from './Footer';
+import UserProfile from "./components/UserProfile";
 import './App.css';
 
 function App() {
@@ -18,6 +19,11 @@ function App() {
       <Header />
       <MainContent />
       <Footer />
+
+      <div>
+      <h1>Welcome to My App</h1>
+      <UserProfile name="Alice" age={25} bio="Loves hiking and photography" />
+    </div>
 
       <div>
         <a href="https://vite.dev" target="_blank">
