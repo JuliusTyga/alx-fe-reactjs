@@ -3,6 +3,9 @@ import { useState } from 'react';
 import WelcomeMessage from "./components/WelcomeMessage";
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
+import Header from './Header';
+import MainContent from './MainContent';
+import Footer from './Footer';
 import './App.css';
 
 function App() {
@@ -12,6 +15,9 @@ function App() {
     <>
       {/* Correct placement of <WelcomeMessage /> */}
       <WelcomeMessage /> 
+      <Header />
+      <MainContent />
+      <Footer />
 
       <div>
         <a href="https://vite.dev" target="_blank">
