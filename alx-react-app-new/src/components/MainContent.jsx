@@ -1,12 +1,10 @@
 function MainContent() {
-    return (
-      <main style={{ backgroundColor: '#f0f0f0', padding: '15px', textAlign: 'center' }}>
-      <p style={{ fontSize: '18px', color: '#333' }}>
-        I love to visit <strong>New York</strong>, <strong>Paris</strong>, and <strong>Tokyo</strong>.
-      </p>
+  return (
+    <main style={{ padding: '20px', fontSize: '18px' }}>
+      <p>I love to visit New York, Paris, and Tokyo.</p>
     </main>
-    );
-  }
-  
-  export default MainContent;
+  );
+}
+
+export default MainContent;
   
