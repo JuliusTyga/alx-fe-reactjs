@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import WelcomeMessage from "./components/WelcomeMessage";
 import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
+import viteLogo from './assets/vite.svg';
 import Header from './Header';
 import MainContent from './MainContent';
 import Footer from './Footer';
@@ -26,10 +26,9 @@ function App() {
     </div>
 
       <div>
-        <a href="https://vite.dev" target="_blank">
+      <a href="https://example.com" target="_blank" rel="noopener noreferrer">Click here</a>
           <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
+        <a href="https://react.dev" target="_blank" rel="noreferrer">>
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
